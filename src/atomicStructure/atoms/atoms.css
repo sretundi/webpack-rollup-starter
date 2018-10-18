@@ -1,0 +1,22 @@
+
+/* base/element styles here */
+
+.b-smallLabel {
+    font-size: 14px;
+}
+
+/* or style element directly here with no naming convention */
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 5px 0 5px 0;
+    padding: 0;
+}
+

@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Todo organism renders correctly 1`] = `
+<div
+  className="todoOrganism"
+>
+  <UserInputs
+    buttonLabel="Submit"
+    onChange={[Function]}
+    onClick={[Function]}
+    value=""
+  />
+  <todoList
+    deleteButtonOnClick={[Function]}
+    editButtonOnClick={[Function]}
+    editableItem={
+      Object {
+        "index": null,
+        "isEditing": false,
+      }
+    }
+    editedInput=""
+    onInputChange={[Function]}
+    saveEditedChanges={[Function]}
+  />
+</div>
+`;

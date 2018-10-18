@@ -1,0 +1,28 @@
+
+.dualButtonListContainer {
+    width: 100%;
+}
+
+.listItemButtonContainer {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.listItemContainer {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.listItemDeleteBtn {
+    margin-left: 5px;
+}
+
+/* styles duplicated here due to scoping */
+.b-textInput--removeOutline:focus {
+    outline: none;
+}
+
+.b-textInput--removeBorder {
+    border: none;
+}

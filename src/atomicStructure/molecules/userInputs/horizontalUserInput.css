@@ -1,0 +1,19 @@
+
+/* from horizontal user input css */
+.l-horizontalInput {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.l-horizontalInput_btn {
+    margin-left: 5px;
+}
+
+.horizontalUserInputContainer {
+    width: 100%;
+}
+
+.b-largeTextInput {
+    width: 300px;
+}

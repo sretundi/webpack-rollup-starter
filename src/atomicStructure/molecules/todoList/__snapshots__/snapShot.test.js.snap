@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders todo list correctly 1`] = `
+<ul
+  className="dualButtonListContainer"
+>
+  <li
+    className="listItemContainer"
+  >
+    <input
+      type="radio"
+    />
+    <input
+      className="b-textInput--removeBorder b-textInput--removeOutline b-textInput"
+      onChange={[Function]}
+      type="text"
+      value={1}
+    />
+    <div
+      className="listItemButtonContainer"
+    >
+      <button
+        className=" smButton b-button"
+        onClick={[Function]}
+      >
+        Edit
+      </button>
+      <button
+        className=" listItemDeleteBtn smButton b-button"
+        onClick={[Function]}
+      >
+        delete
+      </button>
+    </div>
+  </li>
+  <li
+    className="listItemContainer"
+  >
+    <input
+      type="radio"
+    />
+    <input
+      className="b-textInput--removeBorder b-textInput--removeOutline b-textInput"
+      onChange={[Function]}
+      type="text"
+      value={2}
+    />
+    <div
+      className="listItemButtonContainer"
+    >
+      <button
+        className=" smButton b-button"
+        onClick={[Function]}
+      >
+        Edit
+      </button>
+      <button
+        className=" listItemDeleteBtn smButton b-button"
+        onClick={[Function]}
+      >
+        delete
+      </button>
+    </div>
+  </li>
+</ul>
+`;

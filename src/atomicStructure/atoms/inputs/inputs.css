@@ -1,0 +1,19 @@
+
+
+.b-textInput {
+    border-radius: 3px;
+}
+
+.b-largeTextInput {
+    width: 300px;
+}
+
+
+/* enhancers go here or maybe a file for enhancers */
+.b-textInput--removeOutline:focus {
+    outline: none;
+}
+
+.b-textInput--removeBorder {
+    border: none;
+}

@@ -1,0 +1,13 @@
+
+.landingPage {
+    width: 100%;
+}
+
+.widgetOneContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+
