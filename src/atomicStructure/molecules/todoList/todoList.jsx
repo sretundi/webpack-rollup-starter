@@ -22,9 +22,8 @@ const mapListItems = (props) => {
                 className={styles.listItemContainer}
             >
                 <RadioInput />
-
                 <TextInput 
-                    value={(isAnEditableItem(props.editableItem.isEditing, index, props.editableItem.index) && props.editedInput !== '') 
+                    value={(isAnEditableItem(props.editableItem.isEditing, index, props.editableItem.index)) 
                         ? props.editedInput : item} 
                     onChange={props.onInputChange}
                     className={isAnEditableItem(props.editableItem.isEditing, index, props.editableItem.index) 
@@ -36,15 +35,12 @@ const mapListItems = (props) => {
                 >
                     <ButtonCommon
                         buttonLabel={isAnEditableItem(props.editableItem.isEditing, index, props.editableItem.index) ? 'Save' : 'Edit'}
-                        // todo remove active button outline
-                        // styleName={`${''} smButton`}
                         onClick={isAnEditableItem(props.editableItem.isEditing, index, props.editableItem.index) 
                             ? props.saveEditedChanges : () => props.editButtonOnClick(item, index)}
                     />
                     <ButtonCommon
                         onClick={() => props.deleteButtonOnClick(index)}
                         buttonLabel='delete'
-                        // styleName={`${''} listItemDeleteBtn smButton`}
                         className={styles.listItemDeleteBtn}
                     />
                 </div>
